@@ -181,6 +181,15 @@
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
     "version": "v3.0.0"
   },
+  "bigints": {
+    "dependencies": [
+      "maybe",
+      "integers",
+      "strings"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-bigints.git",
+    "version": "v3.5.0"
+  },
   "bytestrings": {
     "dependencies": [
       "arrays",
@@ -1469,6 +1478,17 @@
     "repo": "https://github.com/sharkdp/purescript-numbers.git",
     "version": "v5.0.0"
   },
+  "numerics": {
+    "dependencies": [
+      "bigints",
+      "uint",
+      "rationals",
+      "prelude",
+      "integers"
+    ],
+    "repo": "https://github.com/proclivis/purescript-numerics.git",
+    "version": "v0.1.1"
+  },
   "options": {
     "dependencies": [
       "foreign",
@@ -2238,6 +2258,14 @@
     ],
     "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
     "version": "v2.6.0"
+  },
+  "uint": {
+    "dependencies": [
+      "maybe",
+      "math"
+    ],
+    "repo": "https://github.com/zaquest/purescript-uint.git",
+    "version": "v0.5.0"
   },
   "unfoldable": {
     "dependencies": [
