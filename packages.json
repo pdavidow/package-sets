@@ -761,6 +761,16 @@
     "repo": "https://github.com/citizennet/purescript-fuzzy.git",
     "version": "v0.1.2"
   },
+  "gametree": {
+    "dependencies": [
+      "foldable-traversable",
+      "nonempty",
+      "orders",
+      "lists"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-gametree.git",
+    "version": "v3.0.0"
+  },
   "gen": {
     "dependencies": [
       "nonempty",
