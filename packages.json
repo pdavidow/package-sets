@@ -777,7 +777,7 @@
       "orders",
       "lists"
     ],
-    "repo": "pdavidow/purescript-gametree.git",
+    "repo": "https://github.com/pdavidow/purescript-gametree.git",
     "version": "v3.0.0-1"
   },
   "gen": {
